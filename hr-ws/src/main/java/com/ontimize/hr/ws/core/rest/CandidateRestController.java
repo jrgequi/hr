@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/candidate")
-
 public class CandidateRestController extends ORestController {
     @Autowired
     private ICandidateService service;
